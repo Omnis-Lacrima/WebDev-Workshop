@@ -1,0 +1,53 @@
+:root {
+    --brand-1: #71365A;
+} /* declaring custom property/variable - name can be anything*/
+    
+    
+    header {
+        background-color: #26211D; /* changes bg of topbar */
+        padding: 16px 24px; 
+        a {
+            color: white;
+            text-decoration: none;
+        } /* nesting rules*/
+    }
+    h1 {
+        color : var(--brand-1); /* taking from variable */
+        font-size: 6rem; /* root em 16px default*/
+    }
+
+
+    main {
+        background : #C9B89B;
+    }
+
+    p {
+        font-family: "Inknut Antiqua", serif; /* need these 2 things for font online 
+        to work; the other is in the html from the embed code */
+    }
+
+    .banner { /* for classes and hashes for id */
+        color : #71365A;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        strong {
+            font-size: 1.5rem;
+        }
+    }
+
+    .projects {
+        background: linear-gradient(180deg, #71365A 0%, #000000 100%); /* var */
+        ul {
+            max-width: 800px;
+            margin: 0, auto;
+        }
+        h2 {
+            text-align: center;
+            padding: 50px;
+        }
+    }
+
+    .project-image {
+        border
+    }

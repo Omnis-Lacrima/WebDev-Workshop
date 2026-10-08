@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en-GB"> <!--opening tag - choosing lang + specifying region-->
+
+<head> <!--to the machine: includes metadata-->
+    <meta charset="UTF-8"> <!--specifying how characters are encoded, an index-->
+    <title>Porfolio Website Demo</title> <!--displayed in tab name-->
+
+    <link rel = "stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body> <!--for displaying to people-->
+    <header>
+        <a href="/">My Portfolio</a> <!--anchor tag: linking to root (home page)-->
+        <a href="mailto:me@myportfolio.com">me@myportfolio.com</a> <!--anchor tag: email-->
+        
+    </header>
+    <main>
+        <article class="banner">
+            <h1>My tagline about what I do.</h1>
+            <p><strong>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        </article> <!--article is used for specific self-contained texts-->
+
+        <section class="projects">
+            <h2 style="color: aqua;">Recent Projects</h2> <!--in-line - specific use cases-->
+            <ul>
+                <li>
+                    <div>
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.</p>
+                        <a href="project1.html">Project 1</a>
+                    </div>
+                    <img class="project-image" width="400" src="project1.jpg" alt="">
+                </li>
+
+                                <li>
+                    <div>
+                        <h3>Project 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.</p>
+                        <a href="project1.html">Project 2</a>
+                    </div>
+                    <img width="400" src="project1.jpg" alt="">
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            &copy; 2026
+        </footer>
+
+    </main>
+</body>
+
+</html>
